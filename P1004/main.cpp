@@ -6,8 +6,8 @@ using namespace std;
 int answer = 0;
 string ballon = "";
 
-struct Tire {
-    Tire() {
+struct Trie {
+    Trie() {
         this->count = 0;
         this->value = "";
         for (int i = 0; i < 26; ++i) this->child[i] = NULL;
@@ -15,14 +15,14 @@ struct Tire {
 
     int count;
     string value;
-    Tire *child[26];
+    Trie *child[26];
 };
 
 int getIndex(char c) {
     return c - 97;
 }
 
-void insert(Tire *root, int step, const string &word) {
+void insert(Trie *root, int step, const string &word) {
 
     // 找到插入位置
     if (step == word.size()) {
@@ -31,13 +31,13 @@ void insert(Tire *root, int step, const string &word) {
         return;
     }
     if (!root->child[getIndex(word[step])]) {
-        root->child[getIndex(word[step])] = new Tire();
+        root->child[getIndex(word[step])] = new Trie();
 
     }
     insert(root->child[getIndex(word[step])], step + 1, word);
 }
 
-void process(Tire *root) {
+void findMax(Trie *root) {
     if (root->count > answer) {
         answer = root->count;
         ballon = root->value;
@@ -45,8 +45,20 @@ void process(Tire *root) {
     root->count = 0;
     for (int i = 0; i < 26; ++i) {
         if (root->child[i]) {
-            process(root->child[i]);
+            findMax(root->child[i]);
         }
+    }
+}
+
+bool find(Trie *root, int step, const string &word) {
+
+    if (step == word.size() && root->count > 0) {
+        return true;
+    }
+    if (root->child[word[step] - 97]) {
+        return find(root->child[word[step] - 97], step + 1, word);
+    } else {
+        return false;
     }
 }
 
@@ -54,7 +66,7 @@ int main() {
     ifstream fin("a.in");
     ofstream fout("a.out");
     int n;
-    Tire root = {};
+    Trie root = {};
     string word;
 
     fin >> n;
@@ -65,7 +77,9 @@ int main() {
             fin >> word;
             insert(&root, 0, word);
         }
-        process(&root);
+        fout << find(&root, 0, "orange") << endl;
+        findMax(&root);
+
         fout << ballon << endl;
         fin >> n;
     }
