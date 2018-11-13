@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="P1012" targetName="P1012" />
+      <config projectName="P1013" targetName="P1013" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3b3b71-d5a3-49a2-b8a8-7bb7e31ac40a" name="Default" comment="" />
+    <list default="true" id="58584289-d0e6-4220-953d-8acea46c5eaf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +31,25 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="14" column="38" lean-forward="true" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="a.out" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/a.out">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="a.in" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/a.in">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -45,6 +59,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/cmake-build-debug/a.in" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -59,8 +74,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="271" />
-    <option name="y" value="125" />
+    <option name="x" value="248" />
+    <option name="y" value="142" />
     <option name="width" value="1020" />
     <option name="height" value="639" />
   </component>
@@ -69,8 +84,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="P1013" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P1013" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P1013" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P1013" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -90,12 +120,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P1012">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P1012" RUN_TARGET_NAME="P1012" EXPLICIT_BUILD_TARGET_NAME="all" />
-    <configuration name="P1012" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P1012" TARGET_NAME="P1012" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P1012" RUN_TARGET_NAME="P1012" />
+  <component name="RunManager" selected="Application.P1013">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P1013" RUN_TARGET_NAME="P1013" EXPLICIT_BUILD_TARGET_NAME="all" />
+    <configuration name="P1013" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="P1013" TARGET_NAME="P1013" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="P1013" RUN_TARGET_NAME="P1013" />
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.P1012" />
+      <item itemvalue="Application.P1013" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -103,20 +133,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b3b3b71-d5a3-49a2-b8a8-7bb7e31ac40a" name="Default" comment="" />
-      <created>1541995247602</created>
+      <changelist id="58584289-d0e6-4220-953d-8acea46c5eaf" name="Default" comment="" />
+      <created>1542024621093</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541995247602</updated>
-      <workItem from="1541995249015" duration="2048000" />
+      <updated>1542024621093</updated>
+      <workItem from="1542024622824" duration="1994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2048000" />
+    <option name="totallyTimeSpent" value="1994000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="271" y="125" width="1020" height="639" extended-state="0" />
+    <frame x="248" y="142" width="1020" height="639" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -145,14 +175,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/a.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/a.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="14" column="38" lean-forward="true" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
